@@ -36,7 +36,7 @@ class TestPlusMinus(unittest.TestCase):
         with patch('sys.stdout', new_callable=StringIO) as fake_out:
             plusMinus(arr, 5)
 
-        console_output = fake_out.getvalue()
+        console_output = fake_out.getvalue().split()
 
         self.assertEqual(console_output[0], '0.400000')
         self.assertEqual(console_output[1], '0.400000')
