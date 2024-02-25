@@ -34,8 +34,8 @@ The second line contains  space-separated integers that describe `arr[n]`.
 **Constraints**
 
 ```Python
-0 < n <= 100
--100 <= arr[i] <= 100
+0 < n ≤ 100
+-100 ≤ arr[i] ≤ 100
 ```
 
 **Output Format**

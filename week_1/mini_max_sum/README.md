@@ -31,7 +31,7 @@ A single line of five space-separated integers.
 
 **Constraints**
 
-$`1 <= arr[i] <= 10^9`$
+$`1 ≤ arr[i] ≤ 10^9`$
 
 **Output Format**
 
